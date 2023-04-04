@@ -1,0 +1,186 @@
+/* File Artikel */
+:root{
+    --dark: #3c393d;
+    --exDark: #2b2b2b;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+.title{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.title h2{
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+.blog{
+    background: #17191e;
+    padding: 4.5rem 0;
+}
+
+.blog-content{
+    margin: 2rem 0;
+}
+
+.blog-img{
+    position: relative;
+}
+.blog-img img {
+    width: 400px;
+    height: 300px;
+    padding-left: 16px;
+    margin-top: 20px;
+}
+
+.blog-img span{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: var(--exDark);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.3rem 0.6rem;
+}
+
+.blog-text{
+    margin: 2.2rem 0;
+    padding: 0 1rem;
+}
+
+.blog-text span{
+    color: #fff;
+    font-weight: 300;
+    display: block;
+    padding-bottom: 0.5rem;
+}
+
+.blog-text h2{
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 1.65rem;
+    font-weight: 500;
+}
+
+.blog-text p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    padding-bottom: 1.2rem;
+}
+
+.blog-text a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background: var(--dark);
+    color: #fff;
+    padding: 0.55rem 1.2rem;
+    transition: all 0.5s ease;
+}
+
+.blog-text a:hover{
+    background: var(--exDark);
+}
+
+/*file Portofolio*/
+.skill {
+    background: #ddd;
+    padding: 4.5rem 0;
+}
+
+.skill .title{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.skill .title h2{
+    color: black;
+    font-size: 2.4rem;
+}
+
+.skill .title h3{
+    text-align: left;
+    height: 25px;
+    margin: 5px 0 20px 0s;
+    margin-top: 30px;
+}
+
+#skill .bar {
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px 0 20px 0;
+}
+
+.bar .nilai {
+    height: 20px;
+    background-color: black;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+
+.html {
+    width: 85%;
+}
+.css {
+    width: 70%;
+}
+.js {
+    width: 50%;
+}
+.c {
+    width: 70%;
+}
+.java {
+    width: 60%;
+}
+.php {
+    width: 80%;
+}
+
+.img-folio img {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.folio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.text-folio h3 {
+    color: white;
+    font-weight: normal;
+}
+
+.text1-folio h3 {
+    margin-left: 50px;
+    color: white;
+    font-weight: normal;
+}
+
+.text2-folio h3 { 
+    margin-left: 50px;
+    color: white;
+    font-weight: normal;
+}
